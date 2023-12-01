@@ -12,9 +12,6 @@ Acreditamos que a tecnologia pode ser uma força positiva para a mudança social
 ## Site
 Link para o acesso: https://aconchego-do-bem.github.io/
 
-## Relatório
-Link para o acesso: 
-
 ---
 
 ## Integrantes
