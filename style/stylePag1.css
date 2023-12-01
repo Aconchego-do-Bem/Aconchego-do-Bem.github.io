@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    flex-wrap: wrap;
+    color: white;
+}
+
+body{
+    background-color: #F5ECD9;
+
+}
+
+header{
+    background-color: #A52B21; 
+    color: #fff; 
+    padding: 20px; 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.menuop {
+    margin-top: 75px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 75px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.desc{
+    background-color: #A52B21;
+    border-radius: 50px;
+    padding:35px;
+    width: 600px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.desc h1 {
+    text-align: end;
+    font-size: 50px;
+}
+
+.desc h2 {
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+.opcs {
+    flex-direction: column;
+    display: flex; 
+    justify-content: space-between;
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+.opcs a{
+    text-decoration: none;
+    color: white;
+    background-color: #A52B21;
+    border-radius: 50px;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+.opcs a p {
+    font-weight: 100;
+    text-indent: 0px;
+}
+
+
+footer {
+    background-color: #A9A397; 
+    color: #fff; 
+    padding: 10px; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    padding: 15px;
+}
+
+.middle img{
+    padding-top: 25px;
+}
+
+img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+.opcs p{
+    padding-top: 25px;
+}
+
+.middle {
+    text-align: center; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+.middle img {
+    max-width: 100px; 
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; 
+    margin-right: 20px; 
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: #fff; 
+    font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+    .menuop {
+        flex-direction: column;
+    }
+
+    .desc, .opcs {
+        width: 100%;
+        max-width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .opcs {
+        flex-direction: column;
+    }
+
+    .opcs a {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
