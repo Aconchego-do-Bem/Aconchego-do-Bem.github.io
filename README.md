@@ -9,4 +9,16 @@ Este site oferece uma experiência simples e direta, permitindo que os usuários
 
 Acreditamos que a tecnologia pode ser uma força positiva para a mudança social. Junte-se a nós nesta missão e faça do inverno uma estação mais acolhedora para todos.
 
-Site: https://aconchego-do-bem.github.io/
+## Site
+Link para o acesso: https://aconchego-do-bem.github.io/
+
+---
+
+## Integrantes
+<ul>
+  <li><a href="https://github.com/abnerns">Abner do Nascimento Santos</a></li>
+  <li><a href="https://github.com/thiagoatsl">Augusto Thiago S. Laureano</a></li>
+  <li><a href="https://github.com/nathaliamiyuki">Nathália M. M. Nishihara</a></li>
+</ul>
+
+
