@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="formulario.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+    <title>Seja um Voluntário</title>
+</head>
+<body>
+    <header>
+        <a href="/pagina_inicial/index.html" title="voltar">Voltar</a>
+        <div class="logo">Aconchego do Bem</div>
+    </header>
+
+<main>
+    <form action="/pagina_inicial/index.html">
+        <h1 id="titulo">Torne-se um voluntário
+        <img src="imagens/img1.png" alt="Foto">
+        </h1>
+        <fieldset>
+            <div class="borda1">
+                <label for="username">Nome completo:</label><br>
+                <input type="text" id="username" name="username" required>
+                <p></p>
+            </div>
+            <div class="container">
+                <div class="borda2">
+                    <label for="ra">RA:</label><br>
+                    <input type="number" id="ra" name="ra" required>
+                </div>
+                <div class="borda2">
+                    <label for="curso">Curso:</label><br>
+                    <select id="curso">
+                        <option>Bach em Engenharia de Software</option>
+                        <option>Engenharia de Computação</option>
+                        <option>Engenharia de Controle e Automoção</option>
+                        <option>Engenharia Elétrica</option>
+                        <option>Engenharia Eletrônica</option>
+                        <option>Engenharia Mecânica</option>
+                        <option>Matemática</option>
+                        <option>Análise e Desenvolvimento de Sistemas</option>
+                    </select>
+                    <p></p>
+                </div>
+                <div class="borda2">
+                    <label for="telefone">Telefone/Celular:</label><br>
+                    <input type="tel" id="telefone" name="telefone" required>
+                    <p></p>
+                </div>
+                <div class="borda2">
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" id="email" name="email" required>
+                    <p></p>
+                </div>
+            </div>
+            <div class="borda1">
+                <label for="endereço">Endereço:</label><br>
+                <input type="text" id="endereço" name="endereço">
+                <p></p>
+            </div>
+            <div>
+                <label>Disponibilidade de dias da semana:</label><br>
+                <div>
+                    <input type="checkbox" id="dia1" name="dia1" value="Segunda-feira">
+                    <label for="dia1">Segunda-feira</label>
+                    <input type="checkbox" id="dia2" name="dia2" value="Terça-feira">
+                    <label for="dia2">Terça-feira</label>
+                    <input type="checkbox" id="dia3" name="dia3" value="Quarta-feira">
+                    <label for="dia3">Quarta-feira</label>
+                    <input type="checkbox" id="dia4" name="dia4" value="Quinta-feira">
+                    <label for="dia4">Quinta-feira</label>
+                    <input type="checkbox" id="dia5" name="dia5" value="Sexta-feira">
+                    <label for="dia5">Sexta-feira</label>
+                </div>
+                <p></p>
+            </div>
+            <div>
+                <label>Disponibilidade de período:</label><br>
+                <div>
+                    <input type="radio" name="periodo" id="manha">Manhã
+                    <input type="radio" name="periodo" id="tarde">Tarde
+                    <input type="radio" name="periodo" id="integral">Integral (manhã e tarde)
+                </div>
+                <p></p>
+            </div>
+            <div id="text">
+                <label>Por que deseja se voluntariar?</label><br>
+                <textarea id="motivo" name="motivo"></textarea>
+                <p></p>
+            </div>
+        </fieldset>
+        <div>
+            <label>Estou ciente de que a atividade é voluntária, não sendo renumerada e não representando vínculo empregatício, nem gerando obrigações de natureza trabalhista, previdenciária ou afim.</label><br>
+                <input type="radio" name="obg" id="obg" required>Estou ciente.
+                <p></p>
+        </div>
+        <p></p>
+        <button id="botao" type="submit">Finalizar</button>
+        <button id="limpar">Limpar formulário</button>
+    </form>
+
+<aside>
+    <h2>Faça a diferença, ajude quem precisa.</h2>
+</aside>
+</main>
+
+<div id="pesquisa">
+    
+    <input type="text" id="searchInput" placeholder="Pesquisar por nome ou RA">
+    <button id="searchButton">Pesquisar</button>
+
+</div>
+
+
+<div id="campoLista">
+    <h2>Lista de voluntários:</h2>
+    <ul id="lista">
+        <li>
+            <button id="excluirVoluntario">Excluir Voluntário</button>
+        </li>
+    </ul>
+    <button id="excluirTodosVoluntarios">Excluir Todos</button>
+</div>
+<footer>
+    <div class="middle">
+        <p>Aconchego do Bem</p>
+        <img src="imagens/rodape.png" alt="Imagem do Rodapé">
+    </div>
+</footer>
+<div id="mensagem"></div>
+<script src="script.js"></script>
+</body>
+</html>
